@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+
+/* Título principal */
+h1 {
+    font-size: 3rem;
+    color: #ECBD5F;
+    text-align: center;
+    font-size: 6vw;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #FFE2A7;
+    
+}
+
+/* Navegación */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: #DE4B4A;
+
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+}
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    color: #DE4B4A;
+    text-align: center;
+}
+#button_main{
+    background-color: #DE4B4A;
+    color: #ECBD5F;
+    border-radius: 12%;
+    height: 20%;
+    font-size: xx-large;
+    border: solid transparent;
+}
+
+.buton_idea{
+    color: #DE4B4A;
+    background-color: #ECBD5F;
+    border-radius: 12%;
+    height: 20%;
+    font-size: xx-large;
+    border: solid transparent;
+}
+
+#text_main{
+    font-size: xx-large;
+    color: #DE4B4A;
+}
+.text_card{
+    font-size: xx-large;
+    color: #ECBD5F;
+}
+#column_left{
+    padding-right: 0;
+}
+.card{
+    background-color: #DE4B4A;
+    text-align: justify; margin: 3%;
+    border-radius: 2%;
+}
+
+.button-container {
+    text-align: center;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin-bottom: 5%;
+}
