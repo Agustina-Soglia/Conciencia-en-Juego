@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    height: 100%;
 }
 
 
@@ -60,7 +61,7 @@ main {
 #button_main{
     background-color: #DE4B4A;
     color: #ECBD5F;
-    border-radius: 12%;
+    /* border-radius: 12%; */
     height: 20%;
     font-size: xx-large;
     border: solid transparent;
@@ -69,7 +70,7 @@ main {
 .buton_idea{
     color: #DE4B4A;
     background-color: #ECBD5F;
-    border-radius: 12%;
+    /* border-radius: 5%; */
     height: 20%;
     font-size: xx-large;
     border: solid transparent;
@@ -89,11 +90,68 @@ main {
 .card{
     background-color: #DE4B4A;
     text-align: justify; margin: 3%;
-    border-radius: 2%;
+    /* border-radius: 2%; */
+    height: 80%;
 }
 
 .button-container {
     text-align: center;
     width: 100%; /* Ocupa todo el ancho disponible */
     margin-bottom: 5%;
+}
+
+
+
+
+.carousel {
+    position: relative;
+    width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+#button-carousel{
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transform: translateY(-50%);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ArrowLeft {
+    left: 10px;
+}
+
+.ArrowRight {
+    right: 10px;
+}
+
+.responsive-image {
+    max-width: 40%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-top: 10px; /* Espacio opcional entre el texto y la imagen */
 }
